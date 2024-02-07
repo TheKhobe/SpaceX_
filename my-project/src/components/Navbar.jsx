@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='bg-black flex flex-row md:justify-between justify-center space-x-20 px-12 items-center p-6'>
     <div className='flex justify-center'>
-    <Link to='/' className='text-white'> <img src={logo} alt='logo'  className='w-40 flex ml-36 md:ml-0 relative'/>
+    <Link to='/' className='text-white'> <img src={logo} alt='logo'  className='w-40 flex ml-20 md:ml-0 relative'/>
     </Link>
 </div>
 <div className='flex md:flex-row flex-col md:space-x-8 md:block hidden'>
