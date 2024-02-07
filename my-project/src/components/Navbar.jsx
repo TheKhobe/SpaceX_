@@ -26,7 +26,7 @@ function Navbar() {
   <Link to='#' className='text-white hover:border-b border-white hidden md:block'>Shop</Link>
 <div className='menu-icon' onClick={handleClick}>
 { click ?
-<img src={hamburger} alt='hamburger-menu' className='w-40' /> : <img src={close} alt='closebtn' className='w-40' />
+<img src={hamburger} alt='hamburger-menu' className='w-20' /> : <img src={close} alt='closebtn' className='w-20' />
 
 }
     </div>
