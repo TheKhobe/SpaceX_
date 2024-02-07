@@ -32,7 +32,7 @@ function Navbar() {
     </div>
     </div>
     <div className={click ? 'fixed right-[-100%]': 'fixed right-0 top-0 md:w-[20%] w-[70%] border-l border-l-gray-900 h-full  bg-[#000300] p-2'}>
-    <div className='flex flex-row items-center space-x-24 justify-center'>
+    <div className='flex flex-row items-center space-x-14 justify-center'>
     <img src={logo} alt='logo'  className='w-40 flex md:hidden block'/>
   <div className='menu-icon pt-4' onClick={handleClick}>
 { click ?
